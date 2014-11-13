@@ -12,27 +12,27 @@ describe "Golf" do
     end
   end
 
-  describe ".hole2" do
-    it "should find all numeric palindromes for a range from 0 to 20" do
-      Golf.hole2([0, 20]).should == [0,1,2,3,4,5,6,7,8,9,11]
-    end
-    it "should find all numeric palindromes for a range from 100 to 200" do
-      Golf.hole2([100, 200]).should == [101,111,121,131,141,151,161,171,181,191]
-    end
-    it "should find all numeric palindromes for a range from 1990 to 1992" do
-      Golf.hole2([1990, 1992]).should == [1991]
-    end
-  end
+  # describe ".hole2" do
+  #   it "should find all numeric palindromes for a range from 0 to 20" do
+  #     Golf.hole2([0, 20]).should == [0,1,2,3,4,5,6,7,8,9,11]
+  #   end
+  #   it "should find all numeric palindromes for a range from 100 to 200" do
+  #     Golf.hole2([100, 200]).should == [101,111,121,131,141,151,161,171,181,191]
+  #   end
+  #   it "should find all numeric palindromes for a range from 1990 to 1992" do
+  #     Golf.hole2([1990, 1992]).should == [1991]
+  #   end
+  # end
 
-  describe ".hole3" do
-    it "should encrypt the string by performing a shift cipher" do
-      Golf.hole3("hello",3).should == "khoor"
-    end
+  # describe ".hole3" do
+  #   it "should encrypt the string by performing a shift cipher" do
+  #     Golf.hole3("hello",3).should == "khoor"
+  #   end
 
-    it "should handle negative numbers" do
-      Golf.hole3("world",-2).should == "umpjb"
-    end
-  end
+  #   it "should handle negative numbers" do
+  #     Golf.hole3("world",-2).should == "umpjb"
+  #   end
+  # end
 
   describe ".hole4" do
     it "should count number of times the substring occurs in that string" do
